@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Myskills.scss';
 function Myskills() {
   return (
     <div>
