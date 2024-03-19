@@ -1,3 +1,4 @@
+import './Navbar.scss';
 function Navbar() {
   return (
     <nav className="app__navbar">
