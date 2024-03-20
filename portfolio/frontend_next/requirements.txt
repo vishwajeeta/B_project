@@ -1,1 +1,1 @@
-npm install node-sass framer-motion
+npm install node-sass framer-motion react-icons
