@@ -1,1 +1,18 @@
 npm install node-sass framer-motion react-icons
+
+sass has more fun() and easy
+eg:-
+div{
+bg:red;
+h1{
+color:orange;
+}
+}
+
+
+framer-motion
+used for creation of motion/animation/movement
+transition,opacity,scale
+
+react-icons it has many components of icons,
+which we can use in our websites
