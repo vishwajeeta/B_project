@@ -14,7 +14,7 @@ export default function Home() {
     <div className="app">
 
     <Navbar/>
-    <Header/>
+    {/* <Header/> */}
     <About/>
     <Work/>
     <Myskills/>
