@@ -1,7 +1,18 @@
 {
-  "index": "Introduction",
+  "index":{
+    "title":"Introduction",
+    "theme":{
+      "layout":"full",
+      "sidebar":false,
+      "pagination":false
+    }
+  },
+  "solidity":"solidity",
+  
   "another": "Another Page",
-  "hello":"hello world",
+  "hello":{
+    "display":"hidden"
+  },
   "dropdown":"dropDown",
   "advanced": "Advanced (A Folder)",
   "about": {

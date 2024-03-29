@@ -5,7 +5,7 @@ const config: DocsThemeConfig = {
   logo: <span>SecureBlockASVSI</span>,
   
   project: {
-    link: 'https://github.com/vishwajeeta',
+    link: 'https://github.com/vishwajeeta/',
   },
   chat: {
     link: 'https://discord.com',
@@ -14,7 +14,7 @@ const config: DocsThemeConfig = {
   footer: {
     text: 'Pownered by SecureBlockASVSI',
   },
-  primaryHue:277,
+  
   
 }
 
