@@ -44,7 +44,7 @@ function Header() {
       className='app__header-img'
       >
 
-      <Image src="/vishwaProfile.png" alt='profile_bg' width={90} height={20}/>
+      <Image src="/download.png" alt='profile_bg' width={90} height={20}/>
       <motion.img
       whileInView={{opacity:[0,1]}}
       transition={{duration:1,ease:'easeInOut'}}

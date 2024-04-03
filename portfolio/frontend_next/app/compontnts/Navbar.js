@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <Image src="/vercel.svg" alt='logo' width={90} height={20}/>
+        <strong>ASVSI</strong>
       </div>
       <ul className="app__navbar-links">
       {['home','about','work','skills','contact'].map((item)=>(
