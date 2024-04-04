@@ -10,25 +10,25 @@ import "./Work.scss";
       title: "web Development",
       description: "I am a good web developer.",
       imgUrl: "./hi.webp",
-      tags:"web"
+      tags:"Web"
     },
     {
       title: "Blockchain",
       description: "I am a good blockchain developer.",
       imgUrl: "./hi.webp",
-      tags:"blockchain"
+      tags:"Blockchain"
     },
     {
       title: "Web3.0",
       description: "I am a good web3.0 developer.",
       imgUrl: "./hi.webp",
-      tags:"web"
+      tags:"Web"
     },
     {
       title: "Solidity",
       description: "I am a good Solidity developer.",
       imgUrl: "./hi.webp",
-      tags:"blockchain"
+      tags:"Blockchain"
     },
   ];
 
@@ -39,11 +39,12 @@ import "./Work.scss";
   const [filterWork,setFilterWork]= useState([]);
 
   useEffect(()=>{
+    console.log("initial work",work)
     setWorks(work);
     setFilterWork(work)
   },[]);
 
-
+// Keep in mind Blockchain of element and Blockchain of Tags should be same
   const handleWorkFilter = (item) => {
     setActiveFilter(item);
     setAnimateCard([{y:100,opacity:0}]);
@@ -53,9 +54,9 @@ import "./Work.scss";
       if(item ==='All'){
         setFilterWork(works);
       } else {
-
         setFilterWork(works.filter((work)=>work.tags.includes(item)))
       }
+      
     },500);
   };
 
