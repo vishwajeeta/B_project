@@ -3,36 +3,36 @@ import React, { useState, useEffect } from "react";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 import "./Work.scss";
-function Work() {
+
 
   const work = [
     {
       title: "web Development",
       description: "I am a good web developer.",
       imgUrl: "./hi.webp",
-      tags:"web",
+      tags:"web"
     },
     {
       title: "Blockchain",
       description: "I am a good blockchain developer.",
       imgUrl: "./hi.webp",
-      tags:"blockchain",
+      tags:"blockchain"
     },
     {
       title: "Web3.0",
       description: "I am a good web3.0 developer.",
       imgUrl: "./hi.webp",
-      tags:"web",
+      tags:"web"
     },
     {
       title: "Solidity",
       description: "I am a good Solidity developer.",
       imgUrl: "./hi.webp",
-      tags:"blockchain",
+      tags:"blockchain"
     },
   ];
 
-
+  function Work() {
   const [activeFilter, setActiveFilter] = useState('All');
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
   const [works,setWorks ]=useState([]);
@@ -41,7 +41,7 @@ function Work() {
   useEffect(()=>{
     setWorks(work);
     setFilterWork(work)
-  })
+  },[]);
 
 
   const handleWorkFilter = (item) => {
@@ -73,7 +73,7 @@ function Work() {
               key={index}
               onClick={() => handleWorkFilter(item)}
               className={
-                'app__work-filter-item app__flex p_text ${activeFilter === item ? "item-active" : ""}'
+                `app__work-filter-item app__flex p_text ${activeFilter === item ? "item-active" : ""}`
               }
             >
               {item}
