@@ -1,15 +1,13 @@
 "use client"
 import React from 'react'
-import { useEffect,useState } from 'react';
 import {motion} from 'framer-motion';
-import Image from 'next/image';
 import './About.scss';
 
 const about=[
-  {title:'web Development',description:'I am a good web developer.',imgUrl:'./hi.webp'},
-  {title:'Blockchain',description:'I am a good blockchain developer.',imgUrl:'./hi.webp'},
-  {title:'Web3.0',description:'I am a good web3.0 developer.',imgUrl:'./hi.webp'},
-  {title:'Solidity',description:'I am a good Solidity developer.',imgUrl:'./hi.webp'}
+  {title:'web Development',description:'Next.js developer.',imgUrl:'./about_icons/web.jpeg'},
+  {title:'Web3.0',description:'I am a good web3.0 developer.',imgUrl:'./about_icons/web3.jpg'},
+  {title:'Solidity',description:'I am a good Solidity developer.',imgUrl:'./about_icons/solidity.jpg'},
+  {title:'Blockchain',description:'i am good at Smart-Contract security researcher.',imgUrl:'./about_icons/solidity.jpg'}
 ]
 function About() {
   return (

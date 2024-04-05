@@ -7,15 +7,15 @@ import "./Work.scss";
 
   const work = [
     {
-      title: "web Development",
-      description: "I am a good web developer.",
-      imgUrl: "./hi.webp",
+      title: "Amazon",
+      description: "Amazon clone with web3.0 UI .",
+      imgUrl: "./works_icons/amazon.png",
       tags:"Web"
     },
     {
-      title: "Blockchain",
-      description: "I am a good blockchain developer.",
-      imgUrl: "./hi.webp",
+      title: "Transfer",
+      description: "Transfering the crypto currency.",
+      imgUrl: "./works_icons/transfer.png",
       tags:"Blockchain"
     },
     {
@@ -25,10 +25,10 @@ import "./Work.scss";
       tags:"Web"
     },
     {
-      title: "Solidity",
-      description: "I am a good Solidity developer.",
-      imgUrl: "./hi.webp",
-      tags:"Blockchain"
+      title: "e-learning",
+      description: "e-learning platform for programmer.",
+      imgUrl: "./works_icons/asvsi.png",
+      tags:"Django"
     },
   ];
 
@@ -66,7 +66,7 @@ import "./Work.scss";
       <h2 className="head-text">
         My Creative<span> Portfolio</span> section</h2>
       <div className="app__work-filter">
-        {["Web", "Blockchain", "django", "Next.js", "All"].map(
+        {["Web", "Blockchain", "Django", "Next.js", "All"].map(
           (item, index) => (
             <div
               key={index}
