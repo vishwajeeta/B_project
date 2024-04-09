@@ -6,8 +6,8 @@ import './About.scss';
 const about=[
   {title:'web Development',description:'Next.js developer.',imgUrl:'./about_icons/web.jpeg'},
   {title:'Web3.0',description:'I am a good web3.0 developer.',imgUrl:'./about_icons/web3.jpg'},
-  {title:'Solidity',description:'I am a good Solidity developer.',imgUrl:'./about_icons/solidity.jpg'},
-  {title:'Blockchain',description:'i am good at Smart-Contract security researcher.',imgUrl:'./about_icons/solidity.jpg'}
+  {title:'Solidity',description:'I am a good Solidity developer.',imgUrl:'./about_icons/solidity.png'},
+  {title:'Blockchain',description:'i am good at Smart-Contract security researcher.',imgUrl:'./about_icons/blockchain.jpeg'}
 ]
 function About() {
   return (
