@@ -30,6 +30,13 @@ import "./Work.scss";
       imgUrl: "./works_icons/asvsi.png",
       tags:"Django"
     },
+    {
+      title: "e-learning",
+      description: "e-learning platform for programmer.",
+      imgUrl: "./works_icons/asvsi.png",
+      projectLink:"./certificate",
+      tags:"Certificates"
+    },
   ];
 
   function Work() {
@@ -66,7 +73,7 @@ import "./Work.scss";
       <h2 className="head-text">
         My Creative<span> Portfolio</span> section</h2>
       <div className="app__work-filter">
-        {["Web", "Blockchain", "Django", "Next.js", "All"].map(
+        {["Web", "Blockchain", "Django", "Next.js","Certificates", "All"].map(
           (item, index) => (
             <div
               key={index}
