@@ -7,27 +7,27 @@ import './Myskills.scss';
 
 const skill = [
   {
-    name: "React",
-    BgColor:"skyblue",
-    icon: "./hi.webp",
+    name: "Next",
+    BgColor:"white",
+    icon: "./about_icons/next.svg",
     
   },
   {
-    name: "React",
-    BgColor:"skyblue",
-    icon: "./hi.webp",
+    name: "solidity",
+    BgColor:"white",
+    icon: "./about_icons/solidity.png",
     
   },
   {
-    name: "React",
-    BgColor:"skyblue",
-    icon: "./hi.webp",
+    name: "django",
+    BgColor:"white",
+    icon: "./about_icons/django.png",
     
   },
   {
-    name: "React",
-    BgColor:"skyblue",
-    icon: "./hi.webp",
+    name: "flutter",
+    BgColor:"white",
+    icon: "./about_icons/flutter.jfif",
     
   },
 ];
