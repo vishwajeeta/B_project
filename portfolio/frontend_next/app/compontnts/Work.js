@@ -31,8 +31,8 @@ import "./Work.scss";
       tags:"Django"
     },
     {
-      title: "e-learning",
-      description: "e-learning platform for programmer.",
+      title: "Certificate",
+      description: "List of all of my certificates.",
       imgUrl: "./works_icons/asvsi.png",
       projectLink:"./certificate",
       tags:"Certificates"
