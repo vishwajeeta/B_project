@@ -1,19 +1,18 @@
 "use client"
-import Image from 'next/image'
 import "./certificate.scss";
-
+import Image from "next/image";
 
 function Certificates() {
   const mywidth=1000;
   const certificate1=[
-    "/certificates/javaScript.png",
-    "/certificates/reactJS.png",
-    "/certificates/python.png",
-    "/certificates/flutter.png",
-    "/certificates/django.jpg",
-    "/certificates/Front_End.jpg",
-    "/certificates/Linux.jpg",
-    "/certificates/reactJS_components.png",
+    "javaScript.png",
+    "reactJS.png",
+    "python.png",
+    "flutter.png",
+    "django.jpg",
+    "Front_End.jpg",
+    "Linux.jpg",
+    "reactJS_components.png",
   ]
   
   return (
@@ -25,9 +24,9 @@ function Certificates() {
     </h1>
     
     <center>
-    {certificate1.map((item)=>(
+    {certificate1.map((certificate1)=>(
   
-  <Image src={item} alt={item} width={mywidth} height={mywidth} className='images'/>
+  <Image src={`/Certificates/${certificate1}`} alt={certificate1} width={mywidth} height={mywidth} optimized className='images'/>
   
 ))}
 </center>
