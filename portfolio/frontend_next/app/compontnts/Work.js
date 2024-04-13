@@ -33,7 +33,7 @@ import "./Work.scss";
     {
       title: "Certificate",
       description: "List of all of my certificates.",
-      imgUrl: "./works_icons/asvsi.png",
+      imgUrl: "./Certificates/javaScript.png",
       projectLink:"./certificate",
       tags:"Certificates"
     },
