@@ -44,11 +44,11 @@ function Header() {
       className='app__header-img'
       >
 
-      <Image src="/download.png" alt='profile_bg' width={90} height={20}/>
+      <img src="/vishwaProfile.png" alt='profile_bg' />
       <motion.img
       whileInView={{opacity:[0,1]}}
       transition={{duration:1,ease:'easeInOut'}}
-      src="/vishwaProfile.png"
+      src="/download.png"
       alt="profile_circle"
       className="overlay_circle"
       />
@@ -59,6 +59,11 @@ function Header() {
       whileInView={scaleVarients.whileInView}
       className='app__header-circles'
       >
+        {['/about_icons/blockchain.jpeg','/about_icons/django.png','/about_icons/flutter.jfif','/about_icons/next.svg','/about_icons/solidity.png'].map((circle,index)=>(
+          <div className='circle-cmp app__flex'key={`circle-${index}`}>
+            <img src={circle} alt='circle'/>
+          </div>
+        ))}
 
       </motion.div>
     </div>
