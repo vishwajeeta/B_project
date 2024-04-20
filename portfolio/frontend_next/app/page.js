@@ -7,6 +7,7 @@ import Testimonial from "./compontnts/Testimonial";
 import Footer from "./compontnts/Footer";
 import Myskills from "./compontnts/Myskills";
 
+
 import './App.scss';
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
     <div className="app">
 
     <Navbar/>
+    
     <Header/>
     <About/>
     <Work/>

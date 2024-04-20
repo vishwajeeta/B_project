@@ -1,7 +1,6 @@
 "use client"
 import React from 'react'
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 import './Header.scss';
 
 const scaleVarients={
@@ -59,7 +58,7 @@ function Header() {
       whileInView={scaleVarients.whileInView}
       className='app__header-circles'
       >
-        {['/about_icons/blockchain.jpeg','/about_icons/django.png','/about_icons/flutter.jfif','/about_icons/next.svg','/about_icons/solidity.png'].map((circle,index)=>(
+        {['/about_icons/solidity.png','/about_icons/next.svg','/about_icons/django.png','/about_icons/blockchain.jpeg'].map((circle,index)=>(
           <div className='circle-cmp app__flex'key={`circle-${index}`}>
             <img src={circle} alt='circle'/>
           </div>
@@ -70,4 +69,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Header;
