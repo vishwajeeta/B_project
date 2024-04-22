@@ -27,7 +27,7 @@ import "./Work.scss";
       description: "Transfering the crypto currency.",
       imgUrl: "./works_icons/transfer.png",
       projectLink:"https://blockchain-projects-phi.vercel.app/",
-      
+      codeLink:"https://github.com/vishwajeeta/Blockchain_Projects",
       tags:"Blockchain"
     },
     {
@@ -35,7 +35,7 @@ import "./Work.scss";
       description: "Portfolio created from youtube.",
       imgUrl: "./works_icons/Next_portfolio.png",
       projectLink:"https://portfolio-chi-inky-28.vercel.app/",
-      
+      codeLink:"https://github.com/vishwajeeta/B_project/tree/main/portfolio/frontend_next",
       tags:"Next.js"
     },
     {
