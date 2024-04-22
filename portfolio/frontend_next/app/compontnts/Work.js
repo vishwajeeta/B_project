@@ -11,12 +11,15 @@ import "./Work.scss";
       description: "Sample Portfolio using HTML/css and js.",
       imgUrl: "./works_icons/portfolio.png",
       projectLink:"https://vishwajeeta.github.io/portfolio/",
+      codeLink:"https://github.com/vishwajeeta/portfolio",
       tags:"Web"
     },
     {
-      title: "Amazon",
+      title: "Amazon_3.0",
       description: "Amazon clone with web3.0 UI .",
       imgUrl: "./works_icons/amazon.png",
+      
+      codeLink:"https://github.com/vishwajeeta/amazonWeb3",
       tags:"Web"
     },
     {
@@ -24,19 +27,23 @@ import "./Work.scss";
       description: "Transfering the crypto currency.",
       imgUrl: "./works_icons/transfer.png",
       projectLink:"https://blockchain-projects-phi.vercel.app/",
+      
       tags:"Blockchain"
     },
     {
       title: "My Portfolio",
       description: "Portfolio created from youtube.",
       imgUrl: "./works_icons/Next_portfolio.png",
-      projectLink:"https://b-project-nine.vercel.app/",
+      projectLink:"https://portfolio-chi-inky-28.vercel.app/",
+      
       tags:"Next.js"
     },
     {
       title: "e-learning",
       description: "e-learning platform for programmer.",
       imgUrl: "./works_icons/asvsi.png",
+      
+      codeLink:"https://github.com/vishwajeeta/asvsi",
       tags:"Django"
     },
     {
@@ -44,6 +51,7 @@ import "./Work.scss";
       description: "List of all of my certificates.",
       imgUrl: "./Certificates/javaScript.png",
       projectLink:"./certificate",
+      
       tags:"Certificates"
     },
   ];
@@ -115,6 +123,8 @@ import "./Work.scss";
                 }}
                 className="app__work-hover app__flex"
               >
+                
+                {work.projectLink ?
                 <a href={work.projectLink} target="_blank">
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
@@ -127,6 +137,9 @@ import "./Work.scss";
                     <AiFillEye />
                   </motion.div>
                 </a>
+                :""}
+
+                {work.codeLink ?
                 <a href={work.codeLink} target="_blank">
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
@@ -139,6 +152,8 @@ import "./Work.scss";
                     <AiFillGithub />
                   </motion.div>
                 </a>
+                :""}
+
               </motion.div>
             </div>
 
