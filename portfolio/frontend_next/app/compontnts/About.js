@@ -12,6 +12,7 @@ const about=[
 function About() {
   return (
     <div style={{backgroundColor:"#ffffff"}}>
+      <a name="about"></a>
     <h2 className='head-text'>I Know that<span> Good App</span><br/> means <span>Good Business</span></h2>
     <div className='app__profiles'>
       {about.map((about,index)=>(

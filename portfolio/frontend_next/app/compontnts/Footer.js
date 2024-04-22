@@ -5,6 +5,7 @@ import './Footer.scss';
 const Footer = () => {
   return (
     <div style={{backgroundColor:"#ffffff"}}>
+      <a name="contact"></a>
       <h2 className='head-text'>Take a coffe & chat with me</h2>
       <div className='app__footer-cards'>
         <div className='app__footer-card'>

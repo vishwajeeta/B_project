@@ -7,22 +7,31 @@ import "./Work.scss";
 
   const work = [
     {
+      title: "Portfolio",
+      description: "Sample Portfolio using HTML/css and js.",
+      imgUrl: "./works_icons/portfolio.png",
+      projectLink:"https://vishwajeeta.github.io/portfolio/",
+      tags:"Web"
+    },
+    {
       title: "Amazon",
       description: "Amazon clone with web3.0 UI .",
       imgUrl: "./works_icons/amazon.png",
       tags:"Web"
     },
     {
-      title: "Transfer",
+      title: "Web3.0 Transfer",
       description: "Transfering the crypto currency.",
       imgUrl: "./works_icons/transfer.png",
+      projectLink:"https://blockchain-projects-phi.vercel.app/",
       tags:"Blockchain"
     },
     {
-      title: "Web3.0",
-      description: "I am a good web3.0 developer.",
-      imgUrl: "./hi.webp",
-      tags:"Web"
+      title: "My Portfolio",
+      description: "Portfolio created from youtube.",
+      imgUrl: "./works_icons/Next_portfolio.png",
+      projectLink:"https://b-project-nine.vercel.app/",
+      tags:"Next.js"
     },
     {
       title: "e-learning",
@@ -70,6 +79,7 @@ import "./Work.scss";
   
   return (
     <>
+    <a name="work"></a>
       <h2 className="head-text">
         My Creative<span> Portfolio</span> section</h2>
       <div className="app__work-filter">

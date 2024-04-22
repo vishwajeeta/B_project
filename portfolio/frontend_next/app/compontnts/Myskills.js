@@ -41,6 +41,7 @@ function Myskills() {
 
   return (
     <div>
+      <a name="skills"/>
      <h2 className="head-text" >Skills:-</h2>
      <div className="app__skills-container">
       <motion.div className="app__skills-list">
