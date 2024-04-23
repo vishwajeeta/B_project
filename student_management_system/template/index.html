@@ -1,0 +1,84 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      :root {
+        --primary-color: #edf2f8;
+        --secondary-color: #313bac;
+
+        --black-color: #030303;
+        --lightGray-color: #e4e4e4;
+        --gray-color: #6b7688;
+        --brown-color: #46364a;
+        --white-color: #ffffff;
+      }
+
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        scroll-behavior: smooth;
+      }
+      .navbar {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: var(--primary-color);
+
+        color: var(--secondary-color);
+        font-size: large;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+
+      .nav_item_container {
+        display: flex;
+        justify-content: center;
+      }
+      .nav_profile {
+        display: flex;
+        justify-content: right;
+      }
+      .nav_logo {
+        color: var(--black-color);
+        font-size: xx-large;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .nav_items {
+        padding: 1rem;
+      }
+      a {
+        text-decoration: none;
+        color: var(--secondary);
+      }
+      h1 {
+        color: var(--first);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="nav_logo">
+        <div>ASVSI</div>
+      </div>
+      <div class="nav_item_container">
+        <div class="nav_items">Home</div>
+        <div class="nav_items">About</div>
+        <div class="nav_items">
+          <a href="{% url 'attendence' %}" target="_blank">Attendence</a>
+        </div>
+      </div>
+      <div class="nav_profile">
+        <div class="nav_items">Profile</div>
+
+        <div class="nav_items">
+          {% if user.username %} Logout {% else %} Login {% endif%}
+        </div>
+      </div>
+    </div>
+    <h1>{{user.username}} Welcome to home page.</h1>
+  </body>
+</html>
