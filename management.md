@@ -1,6 +1,7 @@
 # Student management system 
 
 monthaly_message= Attendance + monthly % ,
+
 message == student.absent
 
 Admin(sub_teacher)>parents/students (view)
