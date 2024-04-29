@@ -7,6 +7,7 @@ message == student.absent
 Admin(sub_teacher)>parents/students (view)
 
 
+
 //No updates (attendence)
 
 parents/students (onlyOwnAttendence.view) 
@@ -14,7 +15,11 @@ parents/students (onlyOwnAttendence.view)
 Teacher (allAttendence.view)
 
 
+
+
 Profile=Student,teacher
+
+
 
 If( studentProfileCreation in Teacher(student.profileData) ){ 
 
@@ -31,6 +36,8 @@ Teacher.update("success!")
 Teacher.update("pending")
 
 }
+
+
 
 Sub_teacher=students.submit_doc(img,pdf,mp4 )
 
