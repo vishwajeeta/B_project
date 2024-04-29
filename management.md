@@ -4,11 +4,17 @@ monthaly_message= Attendance + monthly % ,
 message == student.absent
 
 Admin(sub_teacher)>parents/students (view)
+
+
 //No updates (attendence)
+
 parents/students (onlyOwnAttendence.view) 
+
 Teacher (allAttendence.view)
 
+
 Profile=Student,teacher
+
 If( studentProfileCreation in Teacher(student.profileData) ){ 
 studentProfile.create()
 Teacher.update("progress")
