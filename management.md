@@ -17,12 +17,19 @@ Teacher (allAttendence.view)
 Profile=Student,teacher
 
 If( studentProfileCreation in Teacher(student.profileData) ){ 
+
 studentProfile.create()
+
 Teacher.update("progress")
+
 if(sub_Teacher.permission=="yes")
+
 Teacher.update("success!")
+
 }else{
+
 Teacher.update("pending")
+
 }
 
 Sub_teacher=students.submit_doc(img,pdf,mp4 )
