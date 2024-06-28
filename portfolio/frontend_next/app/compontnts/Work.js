@@ -23,6 +23,14 @@ import "./Work.scss";
       tags:"Web"
     },
     {
+      title: "Collage Project",
+      description: "Collage project SAMBHRAM website.",
+      imgUrl: "./works_icons/sambhram.png",
+      projectLink:"https://vishwajeeta.github.io/SAMBHRAM-Academy-Website/index.html",
+      codeLink:"https://github.com/vishwajeeta/SAMBHRAM-Academy-Website",
+      tags:"Web"
+    },
+    {
       title: "Web3.0 Transfer",
       description: "Transfering the crypto currency.",
       imgUrl: "./works_icons/transfer.png",
