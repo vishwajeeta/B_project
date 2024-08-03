@@ -1,20 +1,10 @@
 "use client"
 import "./certificate.scss";
-import Image from "next/image";
+import React,{lazy,Suspense} from "react";
+// import Certificates from "./certificate";
 
-function Certificates() {
-  const mywidth=1000;
-  const certificate1=[
-    "javaScript.png",
-    "reactJS.png",
-    "python.png",
-    "flutter.png",
-    "django.jpg",
-    "Front_End.jpg",
-    "Linux.jpg",
-    "reactJS_components.png",
-  ]
-  
+const Certificates=lazy(()=>import("./certificate"))
+function page() {
   return (
     <div>
       <a href="../">home</a>
@@ -22,15 +12,9 @@ function Certificates() {
       Certificates
       </u>
     </h1>
-    
-    <center>
-    {certificate1.map((certificate1)=>(
-  
-  <Image src={`/Certificates/${certificate1}`} alt={certificate1} width={mywidth} height={mywidth} optimized className='images'/>
-  
-))}
-</center>
-    
+    <Suspense fallback={<p>Loading....</p>}>
+    <Certificates/>
+    </Suspense>
     <hr/>
   
     </div>
@@ -39,4 +23,4 @@ function Certificates() {
 
 
 
-export default Certificates
+export default page
