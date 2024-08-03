@@ -4,6 +4,8 @@ import React,{lazy,Suspense} from "react";
 // import Certificates from "./certificate";
 
 const Certificates=lazy(()=>import("./certificate"))
+
+
 function page() {
   return (
     <div>
