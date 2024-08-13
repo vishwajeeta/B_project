@@ -15,19 +15,19 @@ const skill = [
   {
     name: "solidity",
     BgColor:"white",
-    icon: "./about_icons/solidity.png",
+    icon: "./about_icons/solidity.webp",
     
   },
   {
     name: "django",
     BgColor:"white",
-    icon: "./about_icons/django.png",
+    icon: "./about_icons/django.webp",
     
   },
   {
     name: "flutter",
     BgColor:"white",
-    icon: "./about_icons/flutter.jfif",
+    icon: "./about_icons/flutter.webp",
     
   },
 ];

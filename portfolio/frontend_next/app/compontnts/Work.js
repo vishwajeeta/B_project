@@ -9,7 +9,7 @@ import "./Work.scss";
     {
       title: "Portfolio",
       description: "Sample Portfolio using HTML/css and js.",
-      imgUrl: "./works_icons/portfolio.png",
+      imgUrl: "./works_icons/portfolio.webp",
       projectLink:"https://vishwajeeta.github.io/portfolio/",
       codeLink:"https://github.com/vishwajeeta/portfolio",
       tags:"Web"
@@ -17,7 +17,7 @@ import "./Work.scss";
     {
       title: "Amazon_3.0",
       description: "Amazon clone with web3.0 UI .",
-      imgUrl: "./works_icons/amazon.png",
+      imgUrl: "./works_icons/amazon.webp",
       
       codeLink:"https://github.com/vishwajeeta/amazonWeb3",
       tags:"Web"
@@ -25,7 +25,7 @@ import "./Work.scss";
     {
       title: "Collage Project",
       description: "Collage project SAMBHRAM website.",
-      imgUrl: "./works_icons/sambhram.png",
+      imgUrl: "./works_icons/sambhram.webp",
       projectLink:"https://vishwajeeta.github.io/SAMBHRAM-Academy-Website/index.html",
       codeLink:"https://github.com/vishwajeeta/SAMBHRAM-Academy-Website",
       tags:"Web"
@@ -33,7 +33,7 @@ import "./Work.scss";
     {
       title: "Web3.0 Transfer",
       description: "Transfering the crypto currency.",
-      imgUrl: "./works_icons/transfer.png",
+      imgUrl: "./works_icons/transfer.webp",
       projectLink:"https://blockchain-projects-phi.vercel.app/",
       codeLink:"https://github.com/vishwajeeta/Blockchain_Projects",
       tags:"Blockchain"
@@ -41,15 +41,23 @@ import "./Work.scss";
     {
       title: "My Portfolio",
       description: "Portfolio created from youtube.",
-      imgUrl: "./works_icons/Next_portfolio.png",
+      imgUrl: "./works_icons/Next_portfolio.webp",
       projectLink:"https://portfolio-chi-inky-28.vercel.app/",
       codeLink:"https://github.com/vishwajeeta/B_project/tree/main/portfolio/frontend_next",
       tags:"Next.js"
     },
     {
+      title: "digital commerce",
+      description: "sell your digital assets",
+      imgUrl: "./works_icons/digital_products.webp",
+      projectLink:"https://digitalcommerce-git-main-vishwajeetas-projects.vercel.app/",
+      codeLink:"https://github.com/vishwajeeta/digital_commerce",
+      tags:"Next.js"
+    },
+    {
       title: "e-learning",
       description: "e-learning platform for programmer.",
-      imgUrl: "./works_icons/asvsi.png",
+      imgUrl: "./works_icons/asvsi.webp",
       
       codeLink:"https://github.com/vishwajeeta/asvsi",
       tags:"Django"
@@ -57,7 +65,7 @@ import "./Work.scss";
     {
       title: "Certificate",
       description: "List of all of my certificates.",
-      imgUrl: "./Certificates/javaScript.png",
+      imgUrl: "./Certificates/javaScript.webp",
       projectLink:"./certificate",
       
       tags:"Certificates"

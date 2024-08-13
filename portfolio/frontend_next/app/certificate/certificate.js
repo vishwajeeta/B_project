@@ -5,14 +5,14 @@ import Image from "next/image";
 function Certificates() {
   const mywidth=1000;
   const certificate1=[
-    "javaScript.png",
-    "reactJS.png",
-    "python.png",
-    "flutter.png",
-    "django.jpg",
-    "Front_End.jpg",
-    "Linux.jpg",
-    "reactJS_components.png",
+    "javaScript.webp",
+    "reactJS.webp",
+    "python.webp",
+    "flutter.webp",
+    "django.webp",
+    "Front_End.webp",
+    "Linux.webp",
+    "reactJS_components.webp",
   ]
   
   return (

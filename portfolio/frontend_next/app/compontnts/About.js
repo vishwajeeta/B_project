@@ -4,10 +4,10 @@ import {motion} from 'framer-motion';
 import './About.scss';
 
 const about=[
-  {title:'Solidity',description:'I am a good Solidity developer.',imgUrl:'./about_icons/solidity.png'},
-  {title:'Blockchain',description:'i am good at Smart-Contract security researcher.',imgUrl:'./about_icons/blockchain.jpeg'},
-  {title:'web Development',description:'Next.js developer.',imgUrl:'./about_icons/web.jpeg'},
-  {title:'Web3.0',description:'I am a good web3.0 developer.',imgUrl:'./about_icons/web3.jpg'},
+  {title:'Solidity',description:'I am a good Solidity developer.',imgUrl:'./about_icons/solidity.webp'},
+  {title:'Blockchain',description:'i am good at Smart-Contract security researcher.',imgUrl:'./about_icons/blockchain.webp'},
+  {title:'web Development',description:'Next.js developer.',imgUrl:'./about_icons/web.webp'},
+  {title:'Web3.0',description:'I am a good web3.0 developer.',imgUrl:'./about_icons/web3.webp'},
 ]
 function About() {
   return (

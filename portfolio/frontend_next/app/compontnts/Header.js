@@ -58,7 +58,7 @@ function Header() {
       whileInView={scaleVarients.whileInView}
       className='app__header-circles'
       >
-        {['/about_icons/solidity.png','/about_icons/next.svg','/about_icons/django.png','/about_icons/blockchain.jpeg'].map((circle,index)=>(
+        {['/about_icons/solidity.webp','/about_icons/next.svg','/about_icons/django.webp','/about_icons/blockchain.webp'].map((circle,index)=>(
           <div className='circle-cmp app__flex'key={`circle-${index}`}>
             <img src={circle} alt='circle'/>
           </div>

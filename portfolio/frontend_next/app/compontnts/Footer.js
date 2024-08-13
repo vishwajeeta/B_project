@@ -13,7 +13,7 @@ const Footer = () => {
           <a href='mailto:secureblockasvsi@gmail.com' className='p-text'>secureblockasvsi@gmail.com</a>
         </div>
         <div className='app__footer-card'>
-          <img src={"./icons/phone.png"} alt='phone'/>
+          <img src={"./icons/phone.webp"} alt='phone'/>
           <a href='tel: +91 (9538) 938-200' className='p-text'>+91 (9538) 938-200</a>
         </div>
       </div>
