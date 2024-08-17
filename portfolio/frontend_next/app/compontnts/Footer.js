@@ -1,5 +1,6 @@
 "use client"
 import React,{useState} from 'react'
+import Image from 'next/image';
 import './Footer.scss';
 
 const Footer = () => {
@@ -9,7 +10,7 @@ const Footer = () => {
       <h2 className='head-text'>Take a coffe & chat with me</h2>
       <div className='app__footer-cards'>
         <div className='app__footer-card'>
-          <img src={"./icons/mail.png"} alt='email'/>
+          <Image src={"/icons/mail.png"} alt='email' width={100} height={100}/>
           <a href='mailto:secureblockasvsi@gmail.com' className='p-text'>secureblockasvsi@gmail.com</a>
         </div>
         <div className='app__footer-card'>
