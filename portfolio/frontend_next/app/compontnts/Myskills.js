@@ -7,7 +7,7 @@ import './Myskills.scss';
 
 const skill = [
   {
-    name: "Next",
+    name: "Next.js",
     BgColor:"white",
     icon: "./about_icons/next.svg",
     

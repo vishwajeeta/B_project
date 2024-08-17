@@ -79,7 +79,7 @@ import "./Work.scss";
   const [filterWork,setFilterWork]= useState([]);
 
   useEffect(()=>{
-    console.log("initial work",work)
+    // console.log("initial work",work)
     setWorks(work);
     setFilterWork(work)
   },[]);
@@ -129,7 +129,7 @@ import "./Work.scss";
         {filterWork.map((work, index) => (
           <div className="app__work-item app__flex" key={index}>
             <div className="app__work-img app__flex">
-              <img src={work.imgUrl} alt="work.title" />
+              <img src={work.imgUrl} alt={work.title} />
               <motion.div
                 whileHover={{ opacity: [0, 1] }}
                 transition={{
