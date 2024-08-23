@@ -10,6 +10,9 @@ import Myskills from "./compontnts/Myskills";
 
 import './App.scss';
 
+import React,{lazy,Suspense} from "react";
+const DownloadPWA=lazy(()=>import("./compontnts/DownloadPWA"))
+
 export default function Home() {
   return (
     <div className="app">
@@ -22,6 +25,10 @@ export default function Home() {
     <Myskills/>
     <Testimonial/>
     <Footer/>
+    <Suspense fallback={<p>....</p>}>
+    
+    <DownloadPWA/>
+    </Suspense>
     </div>
   );
 }

@@ -117,3 +117,35 @@ export const metadata = {
 ```
 
 Note:- add all the images in public folder. you can use pwa generator website
+
+
+## Adding custom install button
+
+app/compontnts/DownloadPWA.js
+
+```javascript
+import React from 'react'
+
+let deferredPrompt;
+window.addEventListener('beforeinstallprompt',(e)=>{
+  deferredPrompt=e;
+})
+const installApp=document.getElementById('installApp');
+installApp.addEventListener('click',async()=>{
+  if (deferredPrompt !== null){
+    deferredPrompt.prompt();
+    const {outcome}= await deferredPrompt.userChoice;
+    if (outcome === 'accepted'){
+      deferredPrompt=null;
+    }
+  }
+});
+const DownloadPWA = () => {
+  return (
+    <button id='installApp'>Install</button>
+  )
+}
+
+export default DownloadPWA
+
+```
