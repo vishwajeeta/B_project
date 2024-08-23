@@ -35,6 +35,7 @@ const DownloadPWA = () => {
     <button
       onClick={handleInstallClick}
       className={" fixed bottom-2 right-7 sm:button-4 sm:right-4 md:button-6 md:right-6 lg:button-8 lg:right-8 bg-[#313BAC] text-white p-3 sm:p-4 md:p-5 rounded-full hover:bg-green-600 "}
+      title="install App"
     >
       <IoMdDownload />
     </button>
