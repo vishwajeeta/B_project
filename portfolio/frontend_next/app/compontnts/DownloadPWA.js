@@ -22,12 +22,17 @@ const DownloadPWA = () => {
   }, []);
 
   const handleInstallClick = async () => {
-    if (deferredPrompt !== null) {
+    if (deferredPrompt) {
       deferredPrompt.prompt();
       const { outcome } = await deferredPrompt.userChoice;
       if (outcome === "accepted") {
-        setDeferredPrompt(null);
+        console.log("user accepted the install prompt")
+      }else{
+        console.log("user dismissed the install prompt")
       }
+      setDeferredPrompt(null)
+    }else{
+      console.log('install prompt not available')
     }
   };
 
