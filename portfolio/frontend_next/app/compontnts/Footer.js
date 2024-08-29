@@ -2,8 +2,11 @@
 import React,{useState} from 'react'
 import Image from 'next/image';
 import './Footer.scss';
+import { submitAction } from '@/actions/form';
+import { useRef } from 'react';
 
 const Footer = () => {
+  let ref=useRef()
   return (
     <div style={{backgroundColor:"#ffffff"}}>
       <a name="contact"></a>
@@ -18,6 +21,8 @@ const Footer = () => {
           <a href='tel: +91 (9538) 938-200' className='p-text'>+91 (9538) 938-200</a>
         </div>
       </div>
+
+      <form ref={ref} action={(e)=>{submitAction(e); ref.current.reset()}}>
       <div className='app__footer-form app__flex'>
         <div className='app__flex'>
           <input className='p-text' type='text' placeholder='Your Nane' name='name' autoComplete='true'/>
@@ -32,8 +37,9 @@ const Footer = () => {
           name='message'
           />
         </div>
-        <button type='button' className='p-text'>Send Message</button>
+        <button type='submit' className='p-text'>Send Message</button>
       </div>
+      </form>
     </div>
   )
 }
