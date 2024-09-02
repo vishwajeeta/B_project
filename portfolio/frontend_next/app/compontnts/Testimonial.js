@@ -41,6 +41,10 @@ function Testimonial() {
 
   const [currentIndex,setCurrentIndex]=useState(0);
   const test=iknow[currentIndex];
+
+  const handleClick =(index)=>{
+    setCurrentIndex(index);
+  }
   return (
     <>
       {iknow.length && (
@@ -50,10 +54,23 @@ function Testimonial() {
           <div className='app__testimonial-content'>
             <p className='p-text'>{test.name}</p>
             <div>
-              <h4 className='bold-test'>{test.name}</h4>
+              <h4 className='bold-text'>{test.name}</h4>
+              {/* <h5 className='p-text'>{test.compant}</h5> */}
             </div>
           </div>
         </div>
+
+
+        <div className='app__testimonial-btns app__flex'>
+          <div className='app__flex' onClick={()=>handleClick(currentIndex ===0 ? iknow.length -1 :currentIndex -1)}>
+            <HiChevronLeft/>
+          </div>
+          <div className='app__flex' onClick={()=>handleClick(currentIndex ===iknow.length -1 ? 0 :currentIndex +1)}>
+            <HiChevronRight/>
+          </div>
+        </div>
+
+
         </>
       )}
     </>
