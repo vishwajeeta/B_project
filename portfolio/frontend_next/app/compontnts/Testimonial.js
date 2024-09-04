@@ -7,26 +7,26 @@ import './Testimonial.scss';
 
 const testimonial_data = [
   {
-    name: "solidity",
-    BgColor:"white",
+    feedback: "He is a great developer and was been of a great help.He is a great developer and was been of a great help.",
+    name:"white",
     icon: "./about_icons/solidity.webp",
     
   },
   {
-    name: "Next.js",
-    BgColor:"white",
+    feedback: "He is a great developer and was been of a great help.",
+    name:"white",
     icon: "./about_icons/next.svg",
     
   },
   {
-    name: "django",
-    BgColor:"white",
+    feedback: "He is a great developer and was been of a great help.",
+    name:"white",
     icon: "./about_icons/django.webp",
     
   },
   {
-    name: "flutter",
-    BgColor:"white",
+    feedback: "He is a great developer and was been of a great help.",
+    name:"white",
     icon: "./about_icons/flutter.webp",
     
   },
@@ -52,10 +52,10 @@ function Testimonial() {
         <div className='app__testimonial-item app__flex'>
           <img src={test.icon}/>
           <div className='app__testimonial-content'>
-            <p className='p-text'>{test.name}</p>
+            <p className='p-text'>{test.feedback}</p>
             <div>
               <h4 className='bold-text'>{test.name}</h4>
-              {/* <h5 className='p-text'>{test.compant}</h5> */}
+              <h5 className='p-text'>{test.name}</h5>
             </div>
           </div>
         </div>
