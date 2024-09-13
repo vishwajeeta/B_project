@@ -7,30 +7,27 @@ import './Testimonial.scss';
 
 const testimonial_data = [
   {
-    feedback: "He is a great developer and was been of a great help.He is a great developer and was been of a great help.",
-    name:"white",
+    feedback: "An outstanding developer who consistently delivers great results!",
+    name: "James",
     icon: "./about_icons/solidity.webp",
-    
   },
   {
-    feedback: "He is a great developer and was been of a great help.",
-    name:"white",
+    feedback: "Skilled, reliable, and a pleasure to work with.",
+    name: "Samantha",
     icon: "./about_icons/next.svg",
-    
   },
   {
-    feedback: "He is a great developer and was been of a great help.",
-    name:"white",
+    feedback: "A highly talented developer who truly understands the project needs.",
+    name: "Michael",
     icon: "./about_icons/django.webp",
-    
   },
   {
-    feedback: "He is a great developer and was been of a great help.",
-    name:"white",
+    feedback: "Fantastic to work with – always goes above and beyond!",
+    name: "Emily",
     icon: "./about_icons/flutter.webp",
-    
   },
 ];
+
 
 function Testimonial() {
   const [iknow,setIknow]=useState([]);

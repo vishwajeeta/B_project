@@ -6,8 +6,9 @@ function Certificates() {
   const mywidth=1000;
   const certificate1=[
     "javaScript.webp",
-    "reactJS.webp",
     "python.webp",
+    "blockchain-basics-completed.png",
+    "reactJS.webp",
     "flutter.webp",
     "django.webp",
     "Front_End.webp",
