@@ -18,7 +18,7 @@ function Navbar() {
       {['home','about','work','blog','contact'].map((item)=>(
         <li className="app__flex p-text" key={'link-'+item}>
           <div/>{/**Later on add marketPlace to sell your projects. before (blog) */}
-          {item=='blog'?<a href={`/${item}`}>{item}</a>:<a href={`#${item}`}>{item}</a>}
+          {item=='blog'?<a href={/*`/${item}`*/ `https:www.vishwabha.blogspot.com`} target="_blank">{item}</a>:<a href={`#${item}`}>{item}</a>}
           </li>
       ))}
       </ul>
