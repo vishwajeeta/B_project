@@ -1,3 +1,3 @@
-## portfolio https://b-project-nine.vercel.app/
+## portfolio https://portfolio-chi-inky-28.vercel.app/
 
 ### it has all my details skills,self-build-projects/websites
