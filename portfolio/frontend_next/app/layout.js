@@ -17,11 +17,16 @@ export const metadata = {
       url:"https://b-project-nine.vercel.app/",
     },
   ],
-
+  openGraph:{
+    images:'/opengraph-image.png',
+  },
   icons:[
     {rel:"apple-touch-icon", url:"ios/128.png"},
     {rel: "icon",url:"ios/128.png"},
   ],
+  twitter:{
+    card:"summary_large_image"
+  }
 };
 
 export const viewport = {
