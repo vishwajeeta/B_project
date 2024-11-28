@@ -18,28 +18,12 @@ export const metadata = {
     },
   ],
   metadataBase: new URL("https://portfolio-chi-inky-28.vercel.app"),
-  openGraph: {
-    images: [
-      {
-        url: ogImage.src,
-        width: ogImage.width,
-        height: ogImage.height,
-      },
-    ],
-  },
+  
   icons: [
     { rel: "apple-touch-icon", url: "ios/128.png" },
     { rel: "icon", url: "ios/128.png" },
   ],
-  twitter: {
-    images: [
-      {
-        url: ogImage.src,
-        width: ogImage.width,
-        height: ogImage.height,
-      },
-    ],
-  },
+  
 };
 
 export const viewport = {
