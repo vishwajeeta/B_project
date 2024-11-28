@@ -1,8 +1,10 @@
 // import { Inter } from "next/font/google";
 import "./globals.css";
-import ogImage from "./opengraph-imgae.png";
+import Head from "next/head";
 // const inter = Inter({ subsets: ["latin"] });
-
+<Head>
+  <meta property="og:image" content="./opengraph-image.png"/>
+</Head>
 // PWD setting
 export const metadata = {
   title: "My Portfolio App",
@@ -17,7 +19,7 @@ export const metadata = {
       url: "https://portfolio-chi-inky-28.vercel.app/",
     },
   ],
-  metadataBase: new URL("https://portfolio-chi-inky-28.vercel.app"),
+  
   
   icons: [
     { rel: "apple-touch-icon", url: "ios/128.png" },
