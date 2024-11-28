@@ -18,7 +18,7 @@ export const metadata = {
     },
   ],
   openGraph:{
-    images:'/opengraph-image.png',
+    images:'./opengraph-image.png',
   },
   icons:[
     {rel:"apple-touch-icon", url:"ios/128.png"},
