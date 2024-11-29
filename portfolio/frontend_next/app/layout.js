@@ -34,8 +34,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <meta property="og:title" content="My Portfolio App which has all my projects." />
-        <meta property="og:description" content="vishwajeet Portfolio. it contains all my projects with additional informations." />
+        <meta property="og:title" content="My Portfolio App which has all my projects. we provide services for web development and blockchain developments." />
+        <meta property="og:description" content="vishwajeet Portfolio. it contains all my projects with additional informations.build your dream world,we provide services for web development and blockchain developments." />
         <meta property="og:image" content="https://portfolio-chi-inky-28.vercel.app/opengraph-image.png" />
         
         <meta property="og:url" content="https://portfolio-chi-inky-28.vercel.app" />
