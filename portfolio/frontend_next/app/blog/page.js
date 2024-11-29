@@ -1,5 +1,5 @@
-import React from 'react'
-
+import React from 'react';
+import Link from 'next/link';
 const blog=[
     {
         title:'First blog',
@@ -33,7 +33,7 @@ const Blog = () => {
                         <div className='text-sm text-gray-500 mb-4'>
                             <span>By {blog.author}</span> | <span>{new Date(blog.date).toDateString()}</span>
                         </div>
-                        <button className='m-2' variant="outline" href={`/blogpost/${blog.slug}`}>Read More</button>
+                        <Link className='m-2' variant="outline" href={`/blogpost/${blog.slug}`}>Read More</Link>
                         </div></div>
 
             ))}

@@ -18,7 +18,7 @@ function Navbar() {
       {['home','about','work','blog','contact'].map((item)=>(
         <li className="app__flex p-text" key={'link-'+item}>
           <div/>{/**Later on add marketPlace to sell your projects. before (blog) */}
-          {item=='blog'?<a href={/*`/${item}`*/ `https://vishwabha.blogspot.com`} target="_blank">{item}</a>:<a href={`#${item}`}>{item}</a>}
+          {item=='blog'?<a href={`/${item}` /*`https://vishwabha.blogspot.com`*/} target="_blank">{item}</a>:<a href={`#${item}`}>{item}</a>}
           </li>
       ))}
       </ul>
@@ -35,7 +35,7 @@ function Navbar() {
             <ul>
             {['home','about','work','blog','contact'].map((item)=>(
         <li key={item}>
-          {item=='blog'?<a href={/*`/${item}`*/ `https://vishwabha.blogspot.com`} target="_blank" onClick={()=>setToggle(false)}>{item}</a>:<a href={`#${item}`} onClick={()=>setToggle(false)}>{item}</a>}
+          {item=='blog'?<a href={`/${item}` /*`https://vishwabha.blogspot.com`*/} target="_blank" onClick={()=>setToggle(false)}>{item}</a>:<a href={`#${item}`} onClick={()=>setToggle(false)}>{item}</a>}
           {/* <a href={`#${item}`} onClick={()=>setToggle(false)}>{item}</a> */}
           </li>
       ))}
