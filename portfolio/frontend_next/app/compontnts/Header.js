@@ -43,12 +43,12 @@ function Header() {
       className='app__header-img'
       >
 
-      <img src="/vishwaProfile.png" alt='profile_bg' width="100%" height="100%" />
+      <img src="/vishwaProfile.png" alt='profileBg' width="100%" height="100%" />
       <motion.img
       whileInView={{opacity:[0,1]}}
       transition={{duration:1,ease:'easeInOut'}}
       src="/download.png"
-      alt="profile_circle"
+      alt="profileCircle"
       className="overlay_circle"
       />
       </motion.div>

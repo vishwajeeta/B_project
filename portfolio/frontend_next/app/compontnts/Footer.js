@@ -18,17 +18,17 @@ const Footer = () => {
         </div>
         <div className='app__footer-card'>
           <img src={"./icons/phone.webp"} alt='phone'/>
-          <a href='tel: +91 (9538) 938-200' className='p-text'>+91 (9538) 938-200</a>
+          <a href='tel:+91-9538-9382-00' className='p-text'>+91 (9538) 938-200</a>
         </div>
       </div>
 
       
       <div className='app__footer-form app__flex'>
         <div className='app__flex'>
-          <input className='p-text' type='text' placeholder='Your Nane' name='name' autoComplete='true'/>
+          <input className='p-text' type='text' placeholder='Your Nane' name='name' autoComplete='on'/>
           </div>
           <div className='app__flex'>
-          <input className='p-text' type='email' placeholder='Your email' name='email' autoComplete='true'/>
+          <input className='p-text' type='email' placeholder='Your email' name='email' autoComplete='on'/>
         </div>
         <div>
           <textarea
