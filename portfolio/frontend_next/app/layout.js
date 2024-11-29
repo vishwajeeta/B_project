@@ -25,7 +25,7 @@ export const metadata = {
   openGraph:{
     title:'ASVSI',
     discription:'build your dreams.',
-    images:'/opengraph-image.png',
+    images:'./opengraph-image.png',
   },
 };
 
