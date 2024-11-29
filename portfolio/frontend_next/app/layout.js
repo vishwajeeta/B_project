@@ -25,7 +25,7 @@ export const metadata = {
   openGraph:{
     title:'ASVSI',
     discription:'build your dreams.',
-    images:'./opengraph-image.png',
+    images:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJTZzLF81ya01XBhLw9DhgApXKZfykBLQJgQCYcop7OzXC9WIgV9r1yAMjdWaX8ZF5S-iPN1GO1o__4fmjEC25-8uUnnNSjjAO7a8S5mg7tUVvAEanFzaMg_MrL224jzmTEDytQh0JyUIqh2_hDeDj3TjaS8ei4GC4AZ-kxIgf_ETXnvFnjALoIo_r6b0/s1200/opengraph-image.png',
   },
 };
 
