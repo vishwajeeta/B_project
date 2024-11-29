@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
       <Head>
         <meta property="og:title" content="My Portfolio App which has all my projects. we provide services for web development and blockchain developments." />
         <meta property="og:description" content="vishwajeet Portfolio. it contains all my projects with additional informations.build your dream world,we provide services for web development and blockchain developments." />
-        <meta property="og:image" content="https://portfolio-chi-inky-28.vercel.app/opengraph-image.png" />
+        <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJTZzLF81ya01XBhLw9DhgApXKZfykBLQJgQCYcop7OzXC9WIgV9r1yAMjdWaX8ZF5S-iPN1GO1o__4fmjEC25-8uUnnNSjjAO7a8S5mg7tUVvAEanFzaMg_MrL224jzmTEDytQh0JyUIqh2_hDeDj3TjaS8ei4GC4AZ-kxIgf_ETXnvFnjALoIo_r6b0/s1200/opengraph-image.png" />
         
         <meta property="og:url" content="https://portfolio-chi-inky-28.vercel.app" />
         <meta property="og:type" content="website" />
