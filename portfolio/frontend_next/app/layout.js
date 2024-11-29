@@ -2,10 +2,8 @@
 import "./globals.css";
 import Head from "next/head";
 // const inter = Inter({ subsets: ["latin"] });
-<Head>
-  <meta property="og:image" content="./opengraph-image.png"/>
-</Head>
-// PWD setting
+
+// PWA setting
 export const metadata = {
   title: "My Portfolio App",
   description: "vishwajeet Portfolio",
@@ -19,13 +17,11 @@ export const metadata = {
       url: "https://portfolio-chi-inky-28.vercel.app/",
     },
   ],
-  
-  
+
   icons: [
     { rel: "apple-touch-icon", url: "ios/128.png" },
     { rel: "icon", url: "ios/128.png" },
   ],
-  
 };
 
 export const viewport = {
@@ -37,6 +33,14 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <meta property="og:title" content="My Portfolio App" />
+        <meta property="og:description" content="vishwajeet Portfolio" />
+        <meta property="og:image" content="/opengraph-image.png" />
+        <meta property="og:url" content="https://portfolio-chi-inky-28.vercel.app" />
+        <meta property="og:type" content="website" />
+
+      </Head>
       {/* <body className={inter.className}>{children}</body> */}
       <body>{children}</body>
     </html>
