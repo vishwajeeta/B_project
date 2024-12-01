@@ -12,4 +12,4 @@
 ## certificate
 ## portfolio
 
-## thumbnail
+## thumbnail || preview
