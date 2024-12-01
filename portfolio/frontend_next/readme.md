@@ -11,3 +11,5 @@
 
 ## certificate
 ## portfolio
+
+## thumbnail
