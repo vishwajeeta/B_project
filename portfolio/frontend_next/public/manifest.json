@@ -2,7 +2,7 @@
     "name":"Vishwajeet portfolio",
     "short_name":"vishwajeet",
     "theme_color":"#edf2f8",
-    "background_color":"#edf2f8",
+    "background_color":"#ffffff",
     "display":"standalone",
     "orientation":"portrait",
     "scope":"/",
