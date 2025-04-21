@@ -3,6 +3,7 @@
     "short_name":"vishwajeet",
     "theme_color":"#edf2f8",
     "background_color":"#ffffff",
+    "description": "A personal portfolio showcasing Vishwajeet's projects, skills, and contact information.",
     "display":"standalone",
     "orientation":"portrait",
     "scope":"/",
