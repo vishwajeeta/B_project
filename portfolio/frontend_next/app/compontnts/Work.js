@@ -63,6 +63,14 @@ import "./Work.scss";
       tags:"Django"
     },
     {
+      title: "Sound keyboard kids",
+      description: "Teaching ABCD for kids",
+      imgUrl: "./works_icons/alphabet_kids.png",
+      projectLink:"https://vishwajeeta.github.io/sound_keyboard_kids/",
+      codeLink:"https://github.com/vishwajeeta/sound_keyboard_kids",
+      tags:"Web"
+    },
+    {
       title: "Certificate",
       description: "List of all of my certificates.",
       imgUrl: "./Certificates/javaScript.webp",
