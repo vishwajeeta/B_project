@@ -15,10 +15,11 @@ function Navbar() {
         <strong>ASVSI</strong>
       </div>
       <ul className="app__navbar-links">
-      {['home','about','work','blog','contact'].map((item)=>(
+      {['home','about','work','marketplace','blog','contact'].map((item)=>(
         <li className="app__flex p-text" key={'link-'+item}>
-          <div/>{/**Later on add marketPlace to sell your projects. before (blog) */}
-          {item=='blog'?<a href={/*`/${item}`*/ `https://vishwabha.blogspot.com`} target="_blank">{item}</a>:<a href={`#${item}`}>{item}</a>}
+          <div/>
+          
+          {item=='blog'?<a href={/*`/${item}`*/ `https://vishwabha.blogspot.com`} target="_blank">{item}</a>:item=='marketplace'?<a href="/marketplace">{item}</a>:<a href={`#${item}`}>{item}</a>}
           </li>
       ))}
       </ul>
@@ -33,9 +34,9 @@ function Navbar() {
           
             <HiX onClick={()=>setToggle(false)}/>
             <ul>
-            {['home','about','work','blog','contact'].map((item)=>(
+            {['home','about','work','marketplace','blog','contact'].map((item)=>(
         <li key={item}>
-          {item=='blog'?<a href={`/${item}` /*`https://vishwabha.blogspot.com`*/} target="_blank" onClick={()=>setToggle(false)}>{item}</a>:<a href={`#${item}`} onClick={()=>setToggle(false)}>{item}</a>}
+          {item=='blog'?<a href={`/${item}` /*`https://vishwabha.blogspot.com`*/} target="_blank" onClick={()=>setToggle(false)}>{item}</a>:item=='marketplace'?<a href="/marketplace">{item}</a>:<a href={`#${item}`} onClick={()=>setToggle(false)}>{item}</a>}
           {/* <a href={`#${item}`} onClick={()=>setToggle(false)}>{item}</a> */}
           </li>
       ))}
