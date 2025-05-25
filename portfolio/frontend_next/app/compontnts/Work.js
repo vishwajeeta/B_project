@@ -33,7 +33,7 @@ import "./Work.scss";
     {
       title: "Medical Storage",
       description: "medical record storage system",
-      imgUrl: "./works_icons/transfer.webp",
+      imgUrl: "./works_icons/medical.jpg",
       projectLink:"https://medical-record-storage-system.vercel.app/",
       codeLink:"https://github.com/vishwajeeta/medical-record-storage-system",
       tags:"Blockchain"
