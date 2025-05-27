@@ -47,6 +47,15 @@ import "./Work.scss";
       tags:"Blockchain"
     },
     {
+      title: "DDSS",
+      description: "Decentralized Data Storage System",
+      imgUrl: "./works_icons/DDSS.png",
+      projectLink:"https://dpss-vishwajeetas-projects.vercel.app/",
+      codeLink:"https://github.com/vishwajeeta/DPSS",
+      tags:"Blockchain"
+    },
+    
+    {
       title: "My Portfolio",
       description: "Portfolio created from youtube.",
       imgUrl: "./works_icons/Next_portfolio.webp",
