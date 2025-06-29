@@ -1,17 +1,21 @@
-function page() {
+import React from 'react'
+
+const marketplace = () => {
   return (
-    <div>
-      <a href="../">home</a>
-    <h1><u>
-      Marketplace
-      </u>
-    </h1>
-    <hr/>
-  
+    <>
+    HeroBanner
+    <div className="products-heading">
+      <h2>Best Selling Products</h2>
+      <p>software to soft-copy notes and more</p>
+      
     </div>
+    <div className="product-container">
+      {['product1','product2'].map((product)=>product)}
+    </div>
+    Footer
+    
+    </>
   )
 }
 
-
-
-export default page
+export default marketplace

@@ -25,19 +25,20 @@ const Footer = () => {
       
       <div className='app__footer-form app__flex'>
         <div className='app__flex'>
-          <input className='p-text' type='text' placeholder='Your Name' name='name' autoComplete='on'/>
+          <input className='p-text' type='text' placeholder='Your Name' name='name' required autoComplete='on'/>
           </div>
           <div className='app__flex'>
-          <input className='p-text' type='email' placeholder='Your email' name='email' autoComplete='on'/>
+          <input className='p-text' type='email' placeholder='Your email' name='email' required autoComplete='on'/>
         </div>
        <div className='app__flex'>
-          <input className='p-text' type='number' placeholder='Your number' name='number' inputmode="numeric" autoComplete='on'/>
+          <input className='p-text' type='number' placeholder='Enter Phone number' name='number' inputmode="numeric" minLength="10" maxLength="15" pattern='[0-9]{10,15}' required autoComplete='on'/>
         </div>
         <div>
           <textarea
           className='p-text'
           placeholder='Your Message'
           name='message'
+          required
           />
         </div>
         <button className='p-text'>Send Message</button>
