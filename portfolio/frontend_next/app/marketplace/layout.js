@@ -1,4 +1,4 @@
-import "./globals.css";
+import "../marketplace/globals.css";
 
 export const metadata = {
   title: "Digital Marketplace",
