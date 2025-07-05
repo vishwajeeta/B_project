@@ -5,7 +5,7 @@ const Product = ({product:{name,imgUrl,price,slug}}) => {
   
   return (
     <>
-      <Link href={`/product/${slug}`}>
+      <Link href={`/marketplace/product/${slug}`}>
       <div className='product-card'>
       <img
       src={imgUrl}
