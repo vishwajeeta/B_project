@@ -1,7 +1,9 @@
+import Navbar from "../components/marketplace/Navbar";
 import "../marketplace/globals.css";
 
+
 export const metadata = {
-  title: "Digital Marketplace",
+  title: "Digital Marketplace | ASVSI",
   description: "one place for all digital contents",
   generator: "Next.js",
   manifest: "/manifest.json",
@@ -14,7 +16,16 @@ export default function RootLayout({ children }) {
     <html lang="en">
       
       {/* <body className={inter.className}>{children}</body> */}
-      <body>{children}</body>
+      <body>
+        <div className="layout">
+            <header>
+              <Navbar/>
+            </header>
+            <main className="main-container">
+        {children}
+        </main>
+        </div>
+        </body>
     </html>
   );
 }

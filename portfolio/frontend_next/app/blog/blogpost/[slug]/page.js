@@ -14,6 +14,7 @@ export default function({params}){
             <p className="text-sm text-gray-500 mb-4 italic">By {blog.author}</p>
             <p className="text-sm text-gray-500 mb-4">{blog.date}</p>
         </div>
+        {params.slug}
         <div dangerouslySetInnerHTML={{__html:blog.content}} className="prose"></div>
     </div>)
 }

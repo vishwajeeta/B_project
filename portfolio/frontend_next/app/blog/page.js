@@ -33,7 +33,7 @@ const Blog = () => {
                         <div className='text-sm text-gray-500 mb-4'>
                             <span>By {blog.author}</span> | <span>{new Date(blog.date).toDateString()}</span>
                         </div>
-                        <Link className='m-2' variant="outline" href={`/blogpost/${blog.slug}`}>Read More</Link>
+                        <Link className='m-2' variant="outline" href={`/blog/blogpost/${blog.slug}`}>Read More</Link>
                         </div></div>
 
             ))}
