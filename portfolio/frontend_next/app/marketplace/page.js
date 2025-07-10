@@ -14,7 +14,7 @@ const product = [
     {
       name: "10th standard",
       description: "Sample Portfolio using HTML/css and js.",
-      imgUrl: "./about_icons/flutter.webp",
+      imgUrl: "./marketplace/Banner.png",
       price:"100",
       slug:"first"
     },
@@ -28,7 +28,7 @@ const product = [
     {
       name: "10th standard",
       description: "Sample Portfolio using HTML/css and js.",
-      imgUrl: "./about_icons/flutter.webp",
+      imgUrl: "./marketplace/Banner.png",
       price:"100",
       slug:"first"
     },
