@@ -7,7 +7,7 @@ const HeroBanner = () => {
       <div>
         <p className='beats-solo'>SMALL TEXT</p>
         <h3>MID TEXT</h3>
-        <img src='' alt="headphones" className='hero-banner-image'/>
+        <img src='marketplace/Banner.png' alt="headphones" className='hero-banner-image'/>
         <div>
           <Link href="./product/ID">
           <button type='button'>Button Text</button></Link>
