@@ -43,7 +43,7 @@ const marketplace = () => {
       
     </div>
     <div className="products-container">
-      {product.map((product)=><Product key={product._id} product={product}/>)}
+      {product.map((product,index)=><Product key={index} product={product}/>)}
     </div>
     <FooterBanner/>
     

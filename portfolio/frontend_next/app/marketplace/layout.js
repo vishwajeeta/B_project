@@ -1,4 +1,5 @@
 import Navbar from "../components/marketplace/Navbar";
+import Footer from "../components/marketplace/Footer";
 import "../marketplace/globals.css";
 
 
@@ -24,6 +25,9 @@ export default function RootLayout({ children }) {
             <main className="main-container">
         {children}
         </main>
+        <footer>
+          <Footer/>
+        </footer>
         </div>
         </body>
     </html>

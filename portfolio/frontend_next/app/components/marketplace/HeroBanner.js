@@ -5,9 +5,9 @@ const HeroBanner = () => {
   return (
     <div className='hero-banner-container'>
       <div>
-        <p className='beats-solo'>SMALL TEXT</p>
-        <h3>MID TEXT</h3>
-        <img src='' alt="headphones" className='hero-banner-image'/>
+        <p className='beats-solo'>Resume Templates</p>
+        <h3>45+ Resume Templates</h3>
+        <img src='./marketplace/resume.png' alt="headphones" className='hero-banner-image'/>
         <div>
           <Link href="./product/ID">
           <button type='button'>Button Text</button></Link>
