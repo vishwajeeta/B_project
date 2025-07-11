@@ -22,7 +22,10 @@ const Footer = () => {
         </div>
       </div>
 
-      
+      <form
+  action="https://formspree.io/f/mkgbdkgb"
+  method="POST"
+>
       <div className='app__footer-form app__flex'>
         <div className='app__flex'>
           <input className='p-text' type='text' placeholder='Your Name' name='name' required autoComplete='on'/>
@@ -41,8 +44,9 @@ const Footer = () => {
           required
           />
         </div>
-        <button className='p-text'>Send Message</button>
+        <button className='p-text' type="submit">Send Message</button>
       </div>
+            </form>
       
     </div>
   )
