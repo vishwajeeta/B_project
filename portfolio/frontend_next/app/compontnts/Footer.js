@@ -31,7 +31,7 @@ const Footer = () => {
           <input className='p-text' type='email' placeholder='Your email' name='email' required autoComplete='on'/>
         </div>
        <div className='app__flex'>
-          <input className='p-text' type='number' placeholder='Enter Phone number' name='number' inputmode="numeric" minLength="10" maxLength="15" pattern='[0-9]{10,15}' required autoComplete='on'/>
+          <input className='p-text' type='number' placeholder='Enter Phone number' name='number' inputMode="numeric" minLength="10" maxLength="15" pattern='[0-9]{10,15}' required autoComplete='on'/>
         </div>
         <div>
           <textarea
