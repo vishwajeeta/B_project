@@ -14,7 +14,7 @@ const Footer = () => {
       <div className='app__footer-cards'>
         <div className='app__footer-card'>
           <Image src={"/icons/mail.png"} alt='email' width={100} height={100}/>
-          <a href='mailto:secureblockasvsi@gmail.com' className='p-text'>secureblockasvsi@gmail.com</a>
+          <a href='mailto:asvsi.com@gmail.com' className='p-text'>asvsi.com@gmail.com</a>
         </div>
         <div className='app__footer-card'>
           <img src={"./icons/phone.webp"} alt='phone'/>
