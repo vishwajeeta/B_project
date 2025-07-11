@@ -1,15 +1,15 @@
-import { MetadataRoute } from "next"
-// export default async function sitemap():Promise <MetadataRoute.Sitemap> {
- export default async function sitemap() {
+// app/sitemap.js (for App Router)
 
-    return[
-        {
-            url:'https://vishwajeetportfolio.vercel.app/',
-            
-            },
-        {
-        url:'https://vishwajeetportfolio.vercel.app/certificate',
-        lastModified:new Date(),
-        },
-    ]
+export default async function sitemap() {
+  const baseUrl = "https://vishwajeetportfolio.vercel.app";
+
+  return [
+    {
+      url: `${baseUrl}/`,
+    },
+    {
+      url: `${baseUrl}/certificate`,
+      lastModified: new Date().toISOString(),
+    },
+  ];
 }
