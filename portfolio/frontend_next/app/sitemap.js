@@ -4,11 +4,11 @@ import { MetadataRoute } from "next"
 
     return[
         {
-            url:'localhost:3000/',
+            url:'https://vishwajeetportfolio.vercel.app/',
             
             },
         {
-        url:'localhost:3000/certificate',
+        url:'https://vishwajeetportfolio.vercel.app/certificate',
         lastModified:new Date(),
         },
     ]
