@@ -1,4 +1,3 @@
-// app/sitemap.js (for App Router)
 
 export default async function sitemap() {
   const baseUrl = "https://vishwajeetportfolio.vercel.app";
@@ -6,10 +5,12 @@ export default async function sitemap() {
   return [
     {
       url: `${baseUrl}/`,
+      lastModified: new Date().toISOString(),
     },
     {
       url: `${baseUrl}/certificate`,
       lastModified: new Date().toISOString(),
     },
+    // Add more routes as needed
   ];
 }
