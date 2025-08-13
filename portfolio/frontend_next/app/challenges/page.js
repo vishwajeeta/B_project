@@ -1,24 +1,24 @@
 // app/challenge/page.js
 import Link from 'next/link';
-
-const challenges = [
-  {
-    id: 14,
-    slug: 'tx-origin-misuse',
-    title: 'tx.origin Misuse',
-    difficulty: 'High',
-    tags: ['Security', 'AccessControl'],
-    excerpt: 'A smart contract with weak access control using tx.origin.',
-  },
-  {
-    id: 13,
-    slug: 'reentrancy-attack',
-    title: 'Reentrancy Attack',
-    difficulty: 'Medium',
-    tags: ['Security', 'Reentrancy'],
-    excerpt: 'Find the reentrancy flaw in this contract.',
-  },
-];
+import { challenges } from './challanges';
+// const challenges = [
+//   {
+//     id: 14,
+//     slug: 'tx-origin-misuse',
+//     title: 'tx.origin Misuse',
+//     difficulty: 'High',
+//     tags: ['Security', 'AccessControl'],
+//     excerpt: 'A smart contract with weak access control using tx.origin.',
+//   },
+//   {
+//     id: 13,
+//     slug: 'reentrancy-attack',
+//     title: 'Reentrancy Attack',
+//     difficulty: 'Medium',
+//     tags: ['Security', 'Reentrancy'],
+//     excerpt: 'Find the reentrancy flaw in this contract.',
+//   },
+// ];
 
 export default function ChallengeList() {
   return (
