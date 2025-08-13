@@ -27,7 +27,7 @@ export default function ChallengeList() {
       <div className="space-y-6">
         {challenges.map(ch => (
           <Link key={ch.id} href={`/challenges/${ch.id}-${ch.slug}`}>
-            <div className="bg-[#ffffff] p-4 rounded-xl hover:bg-[#e4e4e4] transition">
+            <div className="bg-[#ffffff] p-4 rounded-xl hover:bg-[#e4e4e4] transition m-4">
               <div className="flex justify-between mb-1">
                 <h2 className="text-xl font-semibold">
                   Challenge #{ch.id} – {ch.title}
