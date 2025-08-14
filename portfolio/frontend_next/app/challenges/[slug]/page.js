@@ -8,7 +8,7 @@ export async function generateMetadata({ params }) {
 
   if (!challenge) {
     return {
-      title: "Challenge Not Found | Web3 Challenges",
+      title: "Challenge Not Found | ASVSI Web3 Challenges",
       description: "This challenge could not be found.",
     };
   }
@@ -20,7 +20,7 @@ export async function generateMetadata({ params }) {
       title: `Challenge #${challenge.id} – ${challenge.title}`,
       description: challenge.description,
       url: `https://vishwajeetportfolio.vercel.app/challenges/${params.slug}`,
-      siteName: "Web3 Challenges",
+      siteName: "Web3 Challenges ASVSI",
       images: [
         {
           url: challenge.image || "https://vishwajeetportfolio.vercel.app/default-og.png",
