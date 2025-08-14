@@ -14,7 +14,7 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `Challenge #${challenge.id} – ${challenge.title} | Web3 Challenges`,
+    title: `Challenge #${challenge.id} – ${challenge.title} | ASVSI Web3 Challenges`,
     description: challenge.description,
     openGraph: {
       title: `Challenge #${challenge.id} – ${challenge.title}`,

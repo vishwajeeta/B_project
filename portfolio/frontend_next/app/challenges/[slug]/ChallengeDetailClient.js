@@ -27,7 +27,7 @@ export default function ChallengeDetailClient({ challenge }) {
           </span>
         ))}
       </div>
-      <p className="mt-6 text-lg text-[#6b7688]">{challenge.description}</p>
+      <pre className="mt-6 text-lg text-[#6b7688] font-sans">{challenge.description}</pre>
 
       {challenge.image && (
         <div className="mt-6">

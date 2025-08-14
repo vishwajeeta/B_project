@@ -1,12 +1,12 @@
 export const challenges = [
   {
     id: 1,
-    slug: "tx-origin-misuse",
-    title: "tx.origin Misuse",
+    slug: "solidity-simple-bug",
+    title: "Solidity simple bug!",
     difficulty: "High",
     tags: ["Security", "AccessControl"],
     description:
-      "This contract uses tx.origin for access control, which is insecure.",
+      "Can you solve This Solidity simple Bug?",
     image: "/challanges/challange1.jpeg",
     code: `
 // SPDX-License-Identifier: MIT
@@ -20,16 +20,16 @@ function getName() public view returns (string memory){ return s_name;
 }
 }
     `,
-    hint: "tx.origin can be manipulated. Prefer msg.sender.",
+    hint: "A smart contract has a function",
   },
   {
     id: 2,
-    slug: "tx-origin-misuse",
-    title: "tx.origin Misuse",
+    slug: "solidity-function-bug",
+    title: "Solidity function bug",
     difficulty: "High",
     tags: ["Security", "AccessControl"],
     description:
-      "This contract uses tx.origin for access control, which is insecure.",
+      "Can You Solve This Solidity function Bug?",
     image: "/challanges/challange2.jpeg",
     code: `
 // SPDX-License-Identifier: MIT
@@ -43,16 +43,17 @@ return s_name;
 }
 }
     `,
-    hint: "tx.origin can be manipulated. Prefer msg.sender.",
+    hint: "A smart contract has a function which return a value",
   },
   {
     id: 3,
-    slug: "tx-origin-misuse",
-    title: "tx.origin Misuse",
+    slug: "gas-optimized-storage",
+    title: "Gas-Optimized Storage",
     difficulty: "High",
     tags: ["Security", "AccessControl"],
     description:
-      "This contract uses tx.origin for access control, which is insecure.",
+`Solidity smart contract has two variables companyName and tagline.
+Since these values will never change, what is the most gas-efficient way to store them?`,
     image: "/challanges/challange3.jpeg",
     code: `
 // SPDX-License-Identifier: MIT
@@ -61,16 +62,16 @@ contract Company {
 string public companyName = "FutureTech"; string public tagline = "Innovating the Decentralized World!";
 }
     `,
-    hint: "tx.origin can be manipulated. Prefer msg.sender.",
+    hint: "Think about how solidity handles unchangeable values. Can you optimize this contract for gas savings?",
   },
   {
     id: 4,
-    slug: "tx-origin-misuse",
-    title: "tx.origin Misuse",
+    slug: "gas-optimization-and-storage-refunds",
+    title: "Gas Optimization & Storage Refunds",
     difficulty: "High",
     tags: ["Security", "AccessControl"],
     description:
-      "This contract uses tx.origin for access control, which is insecure.",
+      "what do you think the gas costs will be?",
     image: "/challanges/challange4.jpeg",
     code: `
 // SPDX-License-Identifier: MIT
@@ -81,7 +82,7 @@ function setNumber(uint256 _num) public {
 number = _num;
 }
     `,
-    hint: "tx.origin can be manipulated. Prefer msg.sender.",
+    hint: "We all know storage writes cost gas, but did you know resetting a variable to zero can actually give a gas refund? Let's put that to the test.",
   },
   {
     id: 5,
