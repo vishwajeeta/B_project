@@ -7,14 +7,14 @@ import './Testimonial.scss';
 
 const testimonial_data = [
   {
-    feedback: "I wall struggling in integrating frontend and backend with custom modification, thanks for his help",
+    feedback: "I was struggling in integrating frontend and backend with custom modification thanks to vishwajeet help i was able to deliver it on time.",
     name: "Anish kafle",
     company: "collage project",
     icon: "./testmonials/anishKafli.jpg",
   },
   {
     feedback: "An outstanding developer who consistently delivers great results!",
-    name: "James",
+    name: "Ranaldo",
     company: "Blockchain Innovators",
     icon: "./about_icons/solidity.webp",
   },
