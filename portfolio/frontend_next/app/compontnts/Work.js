@@ -166,7 +166,7 @@ import "./Work.scss";
               >
                 
                 {work.projectLink ?
-                <a href={work.projectLink} target="_blank">
+                <a href={work.projectLink} target="_blank" aria-label="View project">
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.9] }}
@@ -181,7 +181,7 @@ import "./Work.scss";
                 :""}
 
                 {work.codeLink ?
-                <a href={work.codeLink} target="_blank">
+                <a href={work.codeLink} target="_blank" aria-label="View source code">
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.9] }}
