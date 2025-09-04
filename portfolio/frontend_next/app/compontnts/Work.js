@@ -15,6 +15,13 @@ import "./Work.scss";
       tags:"Web"
     },
     {
+      title: "NFT Marketplace",
+      description: "Lazy Minting and Selling Marketplace",
+      imgUrl: "./works_icons/LazyMintingMarketplace.png",
+
+      tags:"Blockchain"
+    },
+    {
       title: "Amazon_3.0",
       description: "Amazon clone with web3.0 UI .",
       imgUrl: "./works_icons/amazon.webp",
