@@ -18,7 +18,7 @@ import "./Work.scss";
       title: "NFT Marketplace",
       description: "Lazy Minting and Selling Marketplace",
       imgUrl: "./works_icons/LazyMintingMarketplace.png",
-
+      projectLink:"https://bmbarts.onrender.com",
       tags:"Blockchain"
     },
     {
