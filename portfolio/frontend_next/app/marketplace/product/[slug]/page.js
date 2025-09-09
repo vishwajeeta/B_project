@@ -1,13 +1,17 @@
 import React from "react";
-
-const page = () => {
+import { productsLists} from "../../productslists";
+const page = ({params}) => {  
+  let data=productsLists.filter(productsLists=>productsLists.slug == params.slug)
+  console.log(data)
+  let image="../../."+data[0]["imgUrl"];
+  console.log(image)
   return (
     <div className="product-detail-container">
       <div>
         <div className="image-container">
-          <img src="/marketplace/Banner.png" alt="headphones" />
+          <img src={image} alt="headphones" />
         </div>
-        <div className="small-images-container" ></div>
+        <div className="small-images-container" >{params.slug}</div>
       </div>
     </div>
   );
