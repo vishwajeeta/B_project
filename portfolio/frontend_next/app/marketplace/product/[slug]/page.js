@@ -73,7 +73,7 @@ export default function ProductPage({ params }) {
 
 
 const phoneNumber = "9741236051";
-const baseUrl = "https://vishwajeetportfolio.vercel.app/marketplace";
+const baseUrl = "https://vishwajeetportfolio.vercel.app/marketplace/product";
 const productUrl = `${baseUrl}/${product.slug}`;
 const message = `Hi, I'm interested in buying ${product.name}.
 Here’s the product link: ${productUrl}`;
@@ -94,7 +94,7 @@ const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(mess
           {product.description}
         </p>
         <p className="text-xl font-semibold text-blue-600">${product.price}</p>
-        <button className="px-6 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700" disabled="true">
+        <button className="px-6 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700" disabled>
           Buy Now
         </button>
 <a
