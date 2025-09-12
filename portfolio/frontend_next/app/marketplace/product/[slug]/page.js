@@ -1,6 +1,59 @@
 // app/products/[slug]/page.jsx
-import { productsLists } from "../../productsLists";
+import { productsLists } from "../../productslists";
 import { FaWhatsapp } from "react-icons/fa";
+
+
+export async function generateMetadata({ params }) {
+const product = productsLists.find(p => p.slug === params.slug);
+  if (!product) {
+    return {
+      title: "Product Not Found | ASVSI Marketplace",
+      description: "This Product could not be found.",
+    };
+  }
+  const image = product.imgUrl.startsWith("./")
+    ? product.imgUrl.replace("./", "/")
+    : product.imgUrl;
+
+
+  return {
+    title: `${product.name}`,
+    description: product.description,
+    openGraph: {
+      title: `${product.name}`,
+      description: product.description,
+      url: `https://vishwajeetportfolio.vercel.app/marketplace/product/${params.slug}`,
+      siteName: "ASVSI Marketplace",
+      images: [
+        {
+          url: image || "https://vishwajeetportfolio.vercel.app/default-og.png",
+          width: 1200,
+          height: 630,
+          alt: product.name,
+        },
+      ],
+      locale: "en_US",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: product.name,
+      description: product.description,
+      images: [image || "https://vishwajeetportfolio.vercel.app/default-og.png"],
+    },
+    keywords: [
+      "Marketplace",
+      "product",
+      "Solidity",
+      "Smart Contract",
+      "digital",
+      product.name
+    ],
+    alternates: {
+      canonical: `https://vishwajeetportfolio.vercel.app/marketplace/product/${params.slug}`,
+    },
+  };
+}
 
 
 export default function ProductPage({ params }) {
@@ -65,59 +118,3 @@ export async function generateStaticParams() {
   return productsLists.map(p => ({ slug: p.slug }));
 }
 
-
-
-// import React from "react";
-// import { productsLists } from "../../productslists";
-
-// const Page = ({ params }) => {
-//   const product = productsLists.find(p => p.slug === params.slug);
-
-//   if (!product) {
-//     return <div>Product not found</div>;
-//   }
-
-//   // if images are in public/about_icons/flutter.webp
-//   const image = product.imgUrl.startsWith("./")
-//     ? product.imgUrl.replace("./", "/")
-//     : product.imgUrl;
-
-//   return (
-//     <div className="product-detail-container">
-//       <div>
-//         <div className="image-container">
-//           <img src={image} alt={product.name} />
-//         </div>
-//         <div className="small-images-container">{params.slug}</div>
-//         <h1>{product.name}</h1>
-//         <p>{product.description}</p>
-//         <p>Price: ${product.price}</p>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Page;
-
-//-------------------------------------
-
-// import React from "react";
-// import { productsLists} from "../../productslists";
-// const page = ({params}) => {  
-//   let data=productsLists.filter(productsLists=>productsLists.slug == params.slug)
-//   console.log(data)
-//   let image="../../."+data[0]["imgUrl"];
-//   console.log(image)
-//   return (
-//     <div className="product-detail-container">
-//       <div>
-//         <div className="image-container">
-//           <img src={image} alt="headphones" />
-//         </div>
-//         <div className="small-images-container" >{params.slug}</div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default page;
