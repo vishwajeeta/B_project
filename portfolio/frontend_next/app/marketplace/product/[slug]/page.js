@@ -94,7 +94,7 @@ const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(mess
           {product.description}
         </p>
         <p className="text-xl font-semibold text-blue-600">${product.price}</p>
-        <button className="px-6 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700">
+        <button className="px-6 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700" disabled="true">
           Buy Now
         </button>
 <a
