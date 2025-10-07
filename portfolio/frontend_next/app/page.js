@@ -20,8 +20,8 @@ export default function Home() {
     <Navbar/>
     
     <Header/>
-    <About/>
     <Work/>
+    <About/>
     <Myskills/>
     <Testimonial/>
     <Footer/>

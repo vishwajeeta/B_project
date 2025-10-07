@@ -1,7 +1,8 @@
 "use client"
 import React from 'react'
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 import './Header.scss';
+import { AiFillGithub } from "react-icons/ai";
 
 const scaleVarients={
   whileInView:{
@@ -23,15 +24,16 @@ function Header() {
       >
         <div className='app__header-badge'>
           <div className='badge-cmp app__flex'>
-            <span>👋</span>
+            <span><a href="https://github.com/vishwajeeta" target="_blank" aria-label="View source code"><AiFillGithub /> </a></span>
             <div style={{marginLeft:20}}>
-              <p className='p-text'>Hello ,I am </p>
-              <h1 className='head-text'>Vishwa</h1>
+              <p className='p-text'>Hello ,I am a</p>
+              <h1 className='head-text'>Developer</h1>
             </div>
           </div>
           <div className='tag-cmp app__flex'>
-            <p className='p-text'>Web3.O Developer</p>
-            <p className='p-text'>FreeLancer</p>
+            <p className='p-text'>Web3 Development</p>
+            <p className='p-text'>Solidity smart contract development & Auditing</p>
+            <p className='p-text'>FreeLancing</p>
             
           </div>
         </div>

@@ -1,9 +1,9 @@
 export default function robots() {
     return{
-        rules:[
-            {
+        rules:{
             userAgent:"*",
-            }
-        ]
+            allow:'/',
+        },
+        sitemap:"https://vishwajeetportfolio.vercel.app/sitemap.xml",
     }
 }

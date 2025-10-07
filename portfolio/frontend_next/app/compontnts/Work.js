@@ -137,7 +137,7 @@ import "./Work.scss";
     <>
     <a name="work"></a>
       <h2 className="head-text">
-        My Creative<span> Portfolio</span> section</h2>
+        i make <span> Ideas</span> come to life</h2>
       <div className="app__work-filter">
         {["Web", "Blockchain", "Django", "Next.js","Certificates", "All"].map(
           (item, index) => (
