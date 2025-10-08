@@ -55,8 +55,10 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      
-      {/* <body className={inter.className}>{children}</body> */}
+    <head>
+      <meta name="google-site-verification" content="3PZZ94JiT_OTXimMQ2-G4Q64XkxIpYTdaFde9AY1T2o" />
+    </head>
+    {/* <body className={inter.className}>{children}</body> */}
       <body>{children}</body>
     </html>
   );
