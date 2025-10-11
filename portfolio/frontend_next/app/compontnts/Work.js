@@ -139,7 +139,7 @@ import "./Work.scss";
       <h2 className="head-text">
         i make <span> Ideas</span> come to life</h2>
       <div className="app__work-filter">
-        {["Web", "Blockchain", "Django", "Next.js","Certificates", "All"].map(
+        {["All","Web", "Blockchain", "Django", "Next.js","Certificates"].map(
           (item, index) => (
             <div
               key={index}
