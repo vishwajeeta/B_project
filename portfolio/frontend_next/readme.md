@@ -13,3 +13,4 @@
 ## portfolio
 
 ## thumbnail || preview
+`node version 18`
