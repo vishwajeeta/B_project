@@ -12,7 +12,7 @@ function Navbar() {
     { name: "work", href: "#work", external: false },
     // { name: "marketplace", href: "/marketplace", external: false },
     { name: "challenges", href: "/challenges", external: false },
-    { name: "blog", href: "https://vishwabha.blogspot.com", external: true },
+    { name: "blog", href: "/blog", external: false },
     { name: "contact", href: "#contact", external: false },
   ];
 
